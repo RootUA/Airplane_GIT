@@ -4,3 +4,10 @@
 .project
 .settings
 .settings/*
+
+*.idea
+*.iml
+
+*.jar
+*.war
+*.ear

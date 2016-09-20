@@ -1,7 +1,8 @@
 package edu.cursor.weapons;
 
-import java.util.Random;
 import edu.cursor.constants.Constantable;
+
+import java.util.Random;
 
 public class Rocket implements Constantable{
 	private int countRocket;
@@ -9,6 +10,10 @@ public class Rocket implements Constantable{
 
 	public int getRocketCount() {
 		return countRocket;
+	}
+
+	public void setCountRocket(int countRocket) {
+		this.countRocket = countRocket;
 	}
 
 	public int generateRockets() {

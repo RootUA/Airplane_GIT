@@ -5,8 +5,8 @@ import java.util.Random;
 public class Target {
 	NameGenerator nameGenerator = new NameGenerator();
 	private Random random = new Random();
-	private int distance = random.nextInt(200);
-	private int armor = random.nextInt(200);
+	private int distance = random.nextInt(200)+150;
+	private int armor = random.nextInt(700)+150;
 	private String name = nameGenerator.generateName();
 
 	/**

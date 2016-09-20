@@ -1,25 +1,15 @@
 package edu.cursor.planeparts;
 
 public class Wheel {
-	private String brend;
 	private int width;
 	private int length;
 	private int weight;
 
-	public Wheel(String brend, int width, int length, int weight) {
+	public Wheel(int width, int length, int weight) {
 		super();
-		this.brend = brend;
 		this.width = width;
 		this.length = length;
 		this.weight = weight;
-	}
-
-	public String getBrend() {
-		return brend;
-	}
-
-	public void setBrend(String brend) {
-		this.brend = brend;
 	}
 
 	public int getWidth() {

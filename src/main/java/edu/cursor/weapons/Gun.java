@@ -1,8 +1,8 @@
 package edu.cursor.weapons;
 
-import java.util.Random;
-
 import edu.cursor.constants.Constantable;
+
+import java.util.Random;
 
 public class Gun implements Constantable{
 	private int countBull;
@@ -14,7 +14,11 @@ public class Gun implements Constantable{
 		countBull = rand.nextInt(MAX_BULL - MIN_BULL) + MIN_BULL;
 		return countBull;
 	}
-	
+
+	public void setCountBull(int countBull) {
+		this.countBull = countBull;
+	}
+
 	public int getBulletCount()  {
 		return countBull;
 	}

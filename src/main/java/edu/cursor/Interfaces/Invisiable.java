@@ -1,5 +1,5 @@
 package edu.cursor.Interfaces;
 
-interface Invisiable {
+public interface Invisiable {
     void invis();
 }

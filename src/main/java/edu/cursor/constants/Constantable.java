@@ -1,6 +1,12 @@
 package edu.cursor.constants;
 
 public interface Constantable {
+    //Coordinates of military base
+    int EAST = 2;
+    int WEST = 14;
+    int SOUTH = 27;
+    int NORTH = -2;
+	String AIRPLANE_NAME = "Root";
 	// Shotgun class constants
 	int MIN_BULL = 200;
 	int MEDIUM_BULL = 350;
@@ -10,7 +16,7 @@ public interface Constantable {
 	int MEDIUM_ROCK = 4;
 	int MAX_ROCK = 6;
 	// Plane class constants
-	double MIN_LENGTH = 300;
+	double MIN_LENGTH = 500;
 	double MEDIUM_LENGTH = 900;
 	double MAX_LENGTH = 1500;
 	double MIN_WIDTH = 800;
@@ -24,7 +30,7 @@ public interface Constantable {
 	double MAX_WEIGHT  =6000;
    
 	
-	String YES_ANSWER = "y";
-	String NO_ANSWER = "n";
+	char YES_ANSWER = 'y';
+	char NO_ANSWER = 'n';
 
 }

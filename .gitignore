@@ -1,5 +1,13 @@
-/target/
-<<<<<<< HEAD
-=======
-/.settings/
->>>>>>> Igor
+**/target 
+**/target/*
+.classpath
+.project
+.settings
+.settings/*
+
+*.idea
+*.iml
+
+*.jar
+*.war
+*.ear
